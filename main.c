@@ -1,5 +1,5 @@
 #include <math.h>
-#include <string.h>		// para usar strings
+#include <string.h>     // para usar strings
 
 // Rotinas para acesso da OpenGL
 #include "opengl.h"
@@ -115,21 +115,21 @@ int main(int argc, char** argv)
     // 1. Descobrir o tamanho da imagem (ler header)
     // 2. Ler os pixels
     //
-	unsigned long TamanhoDoArquivo;
+    unsigned long TamanhoDoArquivo;
     unsigned char* Dados;
     Dados = LeImagemDeEntrada(argv[1], &TamanhoDoArquivo);
 
-	//printf("Teste: %d", *Dados);
+    //printf("Teste: %d", *Dados);
 
-	unsigned char* largura =  (int*)(Dados + 3);
-	unsigned char* altura =  (int*)(Dados + 4);
+    unsigned int* width =  (int*)(Dados + 3);
+    unsigned int* height = (width + 1);
 
     // TESTE: cria uma imagem de 800x600
 
     sizeX = 800;
     sizeY = 600;
 
-    printf("%d x %d\n", *largura, *altura);
+    printf("Largura:%d x Altura:%d\n", *width, *height);
 
     // Aloca imagem de entrada (32 bits RGBE)
     //image = (unsigned char*) malloc(sizeof(unsigned char) * sizeX * sizeY * 4);

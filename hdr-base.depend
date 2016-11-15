@@ -262,3 +262,33 @@
 	<string.h>
 	"opengl.h"
 
+1479243845 source:c:\users\marcelo\documents\0git\t2-hdr\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1479243046 c:\users\marcelo\documents\0git\t2-hdr\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1479243046 c:\users\marcelo\documents\0git\t2-hdr\include\gl\glut.h
+	"freeglut.h"
+
+1479243046 c:\users\marcelo\documents\0git\t2-hdr\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1479243046 c:\users\marcelo\documents\0git\t2-hdr\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1479243046 c:\users\marcelo\documents\0git\t2-hdr\include\gl\freeglut_ext.h
+
+1479243046 source:c:\users\marcelo\documents\0git\t2-hdr\opengl.c
+	"opengl.h"
+
