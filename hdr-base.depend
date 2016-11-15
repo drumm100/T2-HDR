@@ -1,0 +1,264 @@
+# depslib dependency file v1.0
+1475628233 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/glut.h
+	"freeglut.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut_ext.h
+
+1472593460 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/rgbe.h
+	<stdio.h>
+
+1475628294 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1475628249 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1475628262 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/opengl.c
+	"opengl.h"
+
+1475703452 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1475703386 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/include/GL/glut.h
+	"freeglut.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/include/GL/freeglut_ext.h
+
+1475703437 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/opengl.c
+	"opengl.h"
+
+1475628294 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1472593460 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2bn-162-87y233fvjsijcb43/hdrvis/rgbe.h
+	<stdio.h>
+
+1478196576 source:/home/PORTOALEGRE/16104961/Documents/hdrvis/main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1475703386 /home/PORTOALEGRE/16104961/Documents/hdrvis/opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300995668 /home/PORTOALEGRE/16104961/Documents/hdrvis/include/GL/glut.h
+	"freeglut.h"
+
+1300995668 /home/PORTOALEGRE/16104961/Documents/hdrvis/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300995668 /home/PORTOALEGRE/16104961/Documents/hdrvis/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300995668 /home/PORTOALEGRE/16104961/Documents/hdrvis/include/GL/freeglut_ext.h
+
+1475703437 source:/home/PORTOALEGRE/16104961/Documents/hdrvis/opengl.c
+	"opengl.h"
+
+1475707037 source:c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\opengl.c
+	"opengl.h"
+
+1475706986 c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300999268 c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\include\gl\glut.h
+	"freeglut.h"
+
+1300999268 c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300999268 c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300999268 c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\include\gl\freeglut_ext.h
+
+1478863812 source:c:\users\andri\onedrive\college\programação de baixo nível\visualizador-de-imagens-hdr\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1478738121 source:e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1478466131 e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1478466131 e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\include\gl\glut.h
+	"freeglut.h"
+
+1478466131 e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1478466131 e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1478466131 e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\include\gl\freeglut_ext.h
+
+1478466131 source:e:\google drive\cc\baixo nivel\t2\visualizador-de-imagens-hdr\opengl.c
+	"opengl.h"
+
+1478842478 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\include\gl\glut.h
+	"freeglut.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\include\gl\freeglut_ext.h
+
+1478842478 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\visualizador-de-imagens-hdr-master\opengl.c
+	"opengl.h"
+
+1478842478 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\include\gl\glut.h
+	"freeglut.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\include\gl\freeglut_ext.h
+
+1478842478 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr\opengl.c
+	"opengl.h"
+
+1478842478 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\opengl.c
+	"opengl.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\include\gl\glut.h
+	"freeglut.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1478842478 c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\include\gl\freeglut_ext.h
+
+1479231517 source:c:\users\marcelo\google drive\2 semestre\programação c\t2\hdr - em progresso\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+
