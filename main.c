@@ -8,7 +8,6 @@
 
 // Dimensões da imagem de entrada
 int sizeX, sizeY;
-
 // Imagem de entrada
 unsigned char* image;
 
@@ -17,6 +16,14 @@ unsigned char* image8;
 
 // Fator de exposição inicial
 float exposure = 1.0;
+
+//Dados
+unsigned char* Dados;
+
+//RGB
+float *Rf;
+float *Gf;
+float *Bf;
 
 // Função principal de processamento: ela deve chamar outras funções
 // quando for necessário (ex: algoritmo de tone mapping, etc)
@@ -29,15 +36,51 @@ void process()
     //
     // SUBSTITUA este código pelos algoritmos a serem implementados
     //
+
     unsigned char* ptrEntrada = image;
     unsigned char* ptrSaida = image8;
 
-    //int pos = 0;
-    //for(pos = 0; pos<sizeX*sizeY*3; pos+=3) {
-     //   *ptr++ = (unsigned char) (255 * exposure);
-      //  *ptr++ = (unsigned char) (127 * exposure);
-       // *ptr++ = (unsigned char) (0 * exposure);
-    //}
+//C= 2^(mantissa - 136)
+unsigned char* ptrImag = (Dados + 11);
+unsigned char* mantissa;
+unsigned char* ptrImag8 = (float*)(*ptrSaida);
+
+for(ptrImag; ptrImag< sizeX*sizeY*4; ptrImag = ptrImag+4)
+{
+
+    mantissa = ptrImag + 3;
+    float c = (powf(2,*mantissa - 136));
+
+    //Leitura HDF + Aplicação Fator exposição
+    *Rf = (*ptrImag)*c;
+    *Gf = (*Gf)*c;
+    *Bf = (*Bf)*c;
+
+    *Rf = (*Rf)/((*Rf)+0,5);
+    *Gf = (*Gf)/((*Gf)+0,5);
+    *Bf = (*Bf)/((*Bf)+0,5);
+
+    if(*Rf > 1) {*Rf = 255;}
+    else *Rf = ((*Rf)*255);
+
+    if(*Gf > 1) {*(Gf) = 255;}
+    else *(Gf) = (int)(*(Gf)*255);
+
+    if(*(Bf) > 1) {*(Bf) = 255;}
+    else *(Bf) = (int)(*(Bf)*255);
+
+    ptrImag8 = ptrImag8 + 3;
+
+}
+
+    /*
+    int pos = 0;
+    for(pos = 0; pos<sizeX*sizeY*3; pos+=3) {
+      *ptr++ = (unsigned char) (255 * exposure);
+      *ptr++ = (unsigned char) (127 * exposure);
+      *ptr++ = (unsigned char) (0 * exposure);
+    }
+    */
 
     //
     // NÃO ALTERAR A PARTIR DAQUI!!!!
@@ -94,8 +137,6 @@ unsigned char* LeImagemDeEntrada(char *nomeEntrada, unsigned long *tamEntrada)
 
 
 
-
-
 //-------------Main------------------------------------
 int main(int argc, char** argv)
 {
@@ -112,24 +153,27 @@ int main(int argc, char** argv)
     //
     // Siga as orientações no enunciado para:
     //
-    // 1. Descobrir o tamanho da imagem (ler header)
+    // 1. Descobrir o tamanho da imagem (ler header) OK
     // 2. Ler os pixels
     //
     unsigned long TamanhoDoArquivo;
-    unsigned char* Dados;
+    //    unsigned char* Dados;
     Dados = LeImagemDeEntrada(argv[1], &TamanhoDoArquivo);
 
     //printf("Teste: %d", *Dados);
 
-    unsigned int* width =  (int*)(Dados + 3);
-    unsigned int* height = (width + 1);
+    unsigned int* X =  (int*)(Dados + 3);
+    unsigned int* Y = (X + 1);
+
+    sizeX = *X;
+    sizeY = *Y;
 
     // TESTE: cria uma imagem de 800x600
 
-    sizeX = 800;
-    sizeY = 600;
+    //sizeX = 800;
+    //sizeY = 600;
 
-    printf("Largura:%d x Altura:%d\n", *width, *height);
+    printf("Largura:%d x Altura:%d\n", sizeX, sizeY);
 
     // Aloca imagem de entrada (32 bits RGBE)
     //image = (unsigned char*) malloc(sizeof(unsigned char) * sizeX * sizeY * 4);
